@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['biensoxehoi']
+
+roboflow:
+  workspace: yolov8-test1-vxurd
+  project: bien-so-xe-3w699
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov8-test1-vxurd/bien-so-xe-3w699/dataset/2
