@@ -1,24 +1,25 @@
 # automatic-number-plate-recognition-python-yolov8
 
-<p align="center">
-<a href="https://www.youtube.com/watch?v=fyJB1t0o0ms">
-    <img width="600" src="https://utils-computervisiondeveloper.s3.amazonaws.com/thumbnails/with_play_button/anpr_yolo2.jpg" alt="Watch the video">
-    </br>Watch on YouTube: Automatic number plate recognition with Python, Yolov8 and EasyOCR !
-</a>
-</p>
+# ANRP - Automatic Number Plate Recognition
 
-## data
+**ANRP** is an automatic vehicle license plate recognition system built with **Python**, combining computer vision and artificial intelligence technologies. The system uses **YOLOv8** for license plate detection and **EasyOCR** for character recognition, with a user-friendly GUI developed in **Tkinter**. It supports input from images, videos, and real-time camera streams.
 
-The video I used in this tutorial can be downloaded [here](https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/).
+## 🚀 Features
 
-## models
+- 🎯 Detects and recognizes vehicle license plates from images, videos, or live camera.
+- 🔍 Uses **YOLOv8** to locate the license plate area.
+- 🧠 Recognizes license plate characters with **EasyOCR** and post-processes results.
+- 🎥 Supports input selection from file or webcam.
+- 🖥️ User interface built with **Tkinter**.
+- 📊 Displays recognition accuracy and result in real-time.
+- ⚙️ Configurable settings for model and recognition behavior.
 
-A Yolov8 pretrained model was used to detect vehicles.
+## 🛠️ Technologies Used
 
-A licensed plate detector was used to detect license plates. The model was trained with Yolov8 using [this dataset](https://universe.roboflow.com/roboflow-universe-projects/license-plate-recognition-rxg4e/dataset/4) and following this [step by step tutorial on how to train an object detector with Yolov8 on your custom data](https://github.com/computervisioneng/train-yolov8-custom-dataset-step-by-step-guide). 
+- Python 3.10+
+- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+- EasyOCR
+- OpenCV
+- Tkinter
+- NumPy, re, os, PIL, time, datetime...
 
-The trained model is available in my [Patreon](https://www.patreon.com/ComputerVisionEngineer).
-
-## dependencies
-
-The sort module needs to be downloaded from [this repository](https://github.com/abewley/sort) as mentioned in the [video](https://youtu.be/fyJB1t0o0ms?t=1120).
